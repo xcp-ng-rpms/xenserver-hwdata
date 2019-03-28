@@ -1,7 +1,7 @@
 Name: xenserver-hwdata
 Summary: Additional hardware identification and configuration data
 Version: 20170101
-Release: 1.xs6
+Release: 1.xs6%{dist}
 License: GPLv2+
 Group: System Environment/Base
 Source: https://code.citrite.net/rest/archive/latest/projects/XS/repos/xs-hwdata/archive?at=v%{version}&format=tar.gz&prefix=%{name}-%{version}#/%{name}.tar.gz
