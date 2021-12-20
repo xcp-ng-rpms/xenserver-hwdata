@@ -1,14 +1,14 @@
 Name: xenserver-hwdata
 Summary: Additional hardware identification and configuration data
-Version: 20190202
+Version: 20210516
 Release: 1
 License: GPLv2+
 Group: System Environment/Base
 
-Source0: https://code.citrite.net/rest/archive/latest/projects/XS/repos/xs-hwdata/archive?at=v20190202&format=tar.gz&prefix=xenserver-hwdata-20190202#/xenserver-hwdata.tar.gz
+Source0: https://code.citrite.net/rest/archive/latest/projects/XS/repos/xs-hwdata/archive?at=v20210516&format=tar.gz&prefix=xenserver-hwdata-20210516#/xenserver-hwdata.tar.gz
 
 
-Provides: gitsha(https://code.citrite.net/rest/archive/latest/projects/XS/repos/xs-hwdata/archive?at=v20190202&format=tar.gz&prefix=xenserver-hwdata-20190202#/xenserver-hwdata.tar.gz) = c20d8ddf2fe6527562d1912555f7fbc8f8423c93
+Provides: gitsha(https://code.citrite.net/rest/archive/latest/projects/XS/repos/xs-hwdata/archive?at=v20210516&format=tar.gz&prefix=xenserver-hwdata-20210516#/xenserver-hwdata.tar.gz) = fb289fa479f77c4b4533bdcd2c9193ed8920f9d1
 
 
 BuildArch: noarch
