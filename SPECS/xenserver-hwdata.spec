@@ -1,15 +1,12 @@
+%global package_speccommit ae7e34038161871d5f9f9ff17fe56402f1784a56
+%global package_srccommit v20210516
 Name: xenserver-hwdata
 Summary: Additional hardware identification and configuration data
 Version: 20210516
-Release: 1
+Release: 1%{?xsrel}%{?dist}
 License: GPLv2+
 Group: System Environment/Base
-
-Source0: https://code.citrite.net/rest/archive/latest/projects/XS/repos/xs-hwdata/archive?at=v20210516&format=tar.gz&prefix=xenserver-hwdata-20210516#/xenserver-hwdata.tar.gz
-
-
-Provides: gitsha(https://code.citrite.net/rest/archive/latest/projects/XS/repos/xs-hwdata/archive?at=v20210516&format=tar.gz&prefix=xenserver-hwdata-20210516#/xenserver-hwdata.tar.gz) = fb289fa479f77c4b4533bdcd2c9193ed8920f9d1
-
+Source0: xenserver-hwdata.tar.gz
 
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
