@@ -1,8 +1,8 @@
-%global package_speccommit ae7e34038161871d5f9f9ff17fe56402f1784a56
-%global package_srccommit v20210516
+%global package_speccommit 3f209234410e6a0f027f3b61c3cd7185bd6ed568
+%global package_srccommit v20240411
 Name: xenserver-hwdata
 Summary: Additional hardware identification and configuration data
-Version: 20210516
+Version: 20240411
 Release: 1%{?xsrel}%{?dist}
 License: GPLv2+
 Group: System Environment/Base
@@ -37,3 +37,7 @@ ln -sf pci.ids.d/pci.ids /usr/share/hwdata
 %files
 %defattr(-,root,root)
 /usr/share/hwdata/pci.ids.d/pci.ids
+
+%changelog
+* Tue Apr 23 2024 Stephen Cheng <stephen.cheng@cloud.com> - 20240411-1
+- CA-391652: Update pci.ids to version 2024.04.11
